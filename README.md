@@ -30,7 +30,7 @@ Search movies, view details, explore Popular, Top, Upcoming and Now Playing Movi
 
    ```bash
    git clone https://github.com/Omar25876/Movies-App-React-Native.git
-   cd  Movies-ReactNative
+   cd Movies-App-React-Native
    npm i
    npx expo start 
    ```
