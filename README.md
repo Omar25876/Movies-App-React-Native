@@ -12,7 +12,6 @@ Search movies, view details, explore Popular, Top, Upcoming and Now Playing Movi
 * 📈 See Popular, Top, Upcoming and Now Playing Movies 
 * 🌙 Dark theme UI
 
-
 ---
 
 ## 🛠️ Tech Stack
