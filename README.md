@@ -10,7 +10,6 @@ Search movies, view details, explore Popular, Top, Upcoming and Now Playing Movi
 * 📃 View detailed movie info
 * ❤️ Favourites Movies List
 * 📈 See Popular, Top, Upcoming and Now Playing Movies 
-* 
 * 🌙 Dark theme UI
 
 
