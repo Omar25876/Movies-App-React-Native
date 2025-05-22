@@ -27,6 +27,13 @@ const PopularCarousel = () => {
     return date ? new Date(date).getFullYear() : 'N/A';
   };
 
+    const handleMoviePress = (movieId) => {
+    navigation.navigate("MovieStack", {
+      screen: "movie",
+      params: { movieId },
+    });
+  };
+
   return (
     <View style={styles.container}>
       <Carousel
@@ -41,7 +48,7 @@ const PopularCarousel = () => {
           return (
             <TouchableOpacity
               activeOpacity={0.9}
-              onPress={() => navigation.navigate('Movie', { movieId: item.id })}
+              onPress={() => handleMoviePress(item.id)}
               style={styles.slide}
             >
               <Image
